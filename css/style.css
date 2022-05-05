@@ -1590,6 +1590,10 @@ input.error {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
+.not-active {
+  display: none;
+}
+
 .benefits-wrap {
   display: flex;
   justify-content: space-between;

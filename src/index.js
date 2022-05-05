@@ -5,7 +5,7 @@ import timer from './modules/timer'
 import calculator from './modules/calculator'
 
 modal()
-slider()
+// slider()
 scroll()
 timer('25 july 2022')
 calculator()

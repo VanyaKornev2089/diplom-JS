@@ -26,13 +26,18 @@ const calculator = () => {
 
         reuslt.value = reusltValue
     }
+    if (calc == null) {
+        console.log('Калькулятор на другой странице, дружище');
+    } else {
     calc.addEventListener('input', (e) => {
         if (e.target === balcony || e.target === square || 
             e.target === glass) {
             countCalc()
+        } else {
+            reusltValue = 0
         }
-        
     })
+  }
 }
 
 export default calculator

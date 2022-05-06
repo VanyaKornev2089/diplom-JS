@@ -41,9 +41,8 @@ const galery = () => {
              newElement.remove()
 
             }     
-        })
-        
-        
+        })    
+     }
     //     let modal
     //     let img = '<img src="' + src + '" class="img-responsive" alt="">'
     //     modal.classList.add('services-modal')
@@ -51,7 +50,7 @@ const galery = () => {
     //     background.innerHTML = modal
     //     background.style.background = 'rgba(0, 0, 0, 0.45) url(' + src + ') center no-repeat'
     //     background.style.backgroundSize = 'auto 80%'
-    }
+    
 
 
 // const addModalDocument = () => {

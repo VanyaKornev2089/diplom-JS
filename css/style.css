@@ -947,6 +947,19 @@ p.services-image_mobile {
 #map iframe {
   border: 0 !important;
 }
+
+
+.img-div {
+  position: fixed;
+  top: 5%;
+  left: 30%;
+  width: 600px;
+  height: 850px;
+  background: url(../images/documents/original/document4.jpg) no-repeat center / cover;
+  z-index: 99;
+}
+
+
 .countdown {
   text-align: center;
   background-color: #ededed;

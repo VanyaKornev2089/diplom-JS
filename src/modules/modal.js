@@ -5,28 +5,35 @@ const modal = () => {
 
     document.addEventListener('click', (e) => {
         if (!e.target.closest('.header-modal') && e.target.closest('.overlay')) {
+            e.preventDefault()
             bacground.style.display = ""
             modalContent.style.display = ""
         } else if (e.target.closest('.header-modal__close')) {
+            e.preventDefault()
             bacground.style.display = ""
             modalContent.style.display = ""
         } else if (e.target.closest('.button > .fancyboxModal')) {
+            e.preventDefault()
             bacground.style.display = "block"
             modalContent.style.display = "block"
         }
 
         if (e.target.closest('.utp-button > .fancyboxModal')) {
+            e.preventDefault()
             bacground.style.display = "block"
             twoModal.style.display = "block"
         }
         
         if (e.target.closest('.service-button > .fancyboxModal')) {
+            e.preventDefault()
             bacground.style.display = "block"
             twoModal.style.display = "block"
         } else if (e.target.closest('.services-modal__close')) {
+            e.preventDefault()
             bacground.style.display = ""
             twoModal.style.display = ""
         } else if (!e.target.closest('.services-modal')  && e.target.closest('.overlay')) {
+            e.preventDefault()
             bacground.style.display = ""
             twoModal.style.display = ""
         }

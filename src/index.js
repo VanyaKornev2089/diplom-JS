@@ -5,6 +5,7 @@ import scroll from './modules/scroll'
 import timer from './modules/timer'
 import calculator from './modules/calculator'
 import galery from './modules/galery'
+import gamburger from './modules/gamburger'
 
 modal()
 slider()
@@ -13,3 +14,4 @@ timer('25 july 2022')
 calculator()
 twoSlider()
 galery()
+gamburger()
